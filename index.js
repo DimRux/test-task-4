@@ -80,9 +80,13 @@ function showUserProfile(user) {
   document.querySelector('.todo__form').addEventListener('submit', (e) => {
     e.preventDefault();
     const formData = new FormData(e.target);
-    const task = formData.get('task');
-    initState.todos[user.id].push({ name: task, completed: false });
-    updateTodoUI(user);
+    const task = formData.get('task').trim();
+    if (task) {
+      initState.todos[user.id].push({ name: task, completed: false });
+      updateTodoUI(user);
+    } else {
+      alert('Задача не может быть пустой');
+    }
   });
 }
 
