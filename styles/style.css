@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1280px;
+  padding: 32px;
+  min-height: calc(100vh - 32px);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  font-variant-numeric: lining-nums;
+  color: #125365;
+  background: fixed url('../public/bg.jpg') center/cover no-repeat;
+}
+
+.container {
+  width: 834px;
+}

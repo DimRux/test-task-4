@@ -1,0 +1,83 @@
+@media (max-width: 885px) {
+  .container {
+    width: 641px;
+  }
+
+  .main {
+    width: 641px;
+    max-width: 641px
+  }
+
+  .li {
+    width: 576px;
+  }
+
+  .todo__li {
+    width: 576px;
+  }
+
+  .todo__buttons button {
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    width: 375px;
+    max-width: 640px;
+  }
+
+  .main {
+    width: 375px;
+    max-width: 640px;
+    padding: 16px;
+  }
+
+  .li {
+    width: 343px;
+  }
+
+  .button {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .profile__title h1 {
+    font-size: 20px;
+  }
+
+  .todo__input {
+    width: 200px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .todo__button {
+    width: 100px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .todo__list {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .todo__li {
+    width: 343px;
+  }
+
+  .todo__buttons {
+    gap: 8px;
+  }
+
+  .todo__buttons button {
+    width: 75px;
+    height: 50px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

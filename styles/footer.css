@@ -1,0 +1,10 @@
+.footer {
+  margin-top: 16px;
+  color: #F1F1EF;
+  font-weight: 400;
+}
+
+.footer__link {
+  color: #F1F1EF;
+  text-underline-offset: 3px;
+}
